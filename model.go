@@ -1,3 +1,3 @@
 package inputimage
 
-type InputImage struct{}
+type input struct{}

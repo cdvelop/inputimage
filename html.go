@@ -1,6 +1,6 @@
 package inputimage
 
-func (i InputImage) HtmlTag(id, field_name string, allow_skip_completed bool) string {
+func (i input) HtmlTag(id, field_name string, allow_skip_completed bool) string {
 
-	return "imagen"
+	return `<input id="` + id + `" type="file" id="avatar" name="` + field_name + `" accept="image/,.png,.jpeg,.jpg" />`
 }
